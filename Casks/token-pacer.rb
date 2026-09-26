@@ -2,8 +2,7 @@ cask "token-pacer" do
   version "1.2.0"
   sha256 "5821cccce9db1f19fc3e21d7b2e290b15c73145b8587cb70d3fc89cb0414100c"
 
-  url "https://github.com/heybui/tokenpacer.com/releases/download/v#{version}/TokenPacer-#{version}.dmg",
-      verified: "github.com/heybui/tokenpacer.com/"
+  url "https://github.com/heybui/tokenpacer.com/releases/download/v#{version}/TokenPacer-#{version}.dmg"
   name "Token Pacer"
   desc "Claude Code and Codex usage in the notch"
   homepage "https://tokenpacer.com/"
