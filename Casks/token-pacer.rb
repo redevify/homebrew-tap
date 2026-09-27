@@ -1,6 +1,6 @@
 cask "token-pacer" do
-  version "1.2.0"
-  sha256 "5821cccce9db1f19fc3e21d7b2e290b15c73145b8587cb70d3fc89cb0414100c"
+  version "1.2.1"
+  sha256 "d68f33fee67b12b673398028fa09e5c0e6cce12fd8a0590661c5d63d7a76155c"
 
   url "https://github.com/heybui/tokenpacer.com/releases/download/v#{version}/TokenPacer-#{version}.dmg"
   name "Token Pacer"
