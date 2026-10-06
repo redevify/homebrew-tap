@@ -1,19 +1,18 @@
 cask "duotyping" do
   version "0.1.0"
-  sha256 "9052d42f21b3c346d30d7d8671ff8cecd7df39609472fbf0c398f993eed0ec71"
+  sha256 "1f3219d7821844b325051d2ee9dbacacdb12a573638dcddf0e1b7f792d983690"
 
-  url "https://github.com/duotyping/duotyping.com/releases/download/v#{version}/DuoTyping-#{version}.dmg"
+  url "https://download.duotyping.com/v#{version}/duotyping-#{version}.dmg"
   name "DuoTyping"
   desc "Writing assistant that checks grammar and tone in any app"
   homepage "https://duotyping.com/"
 
   livecheck do
-    url "https://duotyping.com/appcast.xml"
+    url "https://download.duotyping.com/appcast.xml"
     strategy :sparkle, &:short_version
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "DuoTyping.app"
