@@ -1,8 +1,8 @@
 cask "duotyping" do
-  version "1.0.0"
-  sha256 "a440b87e94cb8f2b7edf03822731cea5c1610f080de16198173922f195ae01b1"
+  version "1.1.0"
+  sha256 "626e383f387cd7e4d2b883127da301409bfd944bb16687b6f0ba2338899d8a98"
 
-  url "https://download.duotyping.com/v#{version}/a440b87e94cb/duotyping-#{version}.dmg"
+  url "https://download.duotyping.com/v#{version}/626e383f387c/duotyping-#{version}.dmg"
   name "DuoTyping"
   desc "Writing assistant that checks grammar and tone in any app"
   homepage "https://duotyping.com/"
